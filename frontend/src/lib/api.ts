@@ -1,5 +1,5 @@
 // src/api.ts
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = process.env.VITE_API_URL;
 
 // --- Category Endpoints ---
 
